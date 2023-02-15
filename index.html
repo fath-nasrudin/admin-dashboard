@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+
+        <section class="header__top">
+          <div class="searchbar">
+            <button class="searchbar__icon icon"><img src="img/icons/search.svg" alt="search icon" width="30"
+                height="30"></button>
+            <input class="searchbar__field" type="search" name="searchbar" id="searchbar" placeholder="Search...">
+          </div>
+          <nav class="top-nav-menu">
+            <ul class="nav">
+              <li><button class="icon"><img src="img/icons/bell-ring.svg" alt="notification icon" width="20"
+                    height="20"></button></li>
+              <li><button class="icon"><img src="img/icons/account.svg" alt="notification icon" width="20"
+                    height="20"></button></li>
+            </ul>
+          </nav>
+          <div class="profile">
+            <a href="#" class="profile__image">
+              <img src="/img/profile/profile-picture-1.jpg" alt="your profile picture">
+            </a>
+            <div class="profile__content">
+              <a href="@">
+                <p class="text-bold">Morgan Oakley</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="header__bottom">
+          <div class="profile">
+            <a href="#" class="profile__image">
+              <img src="/img/profile/profile-picture-1.jpg" alt="your profile picture">
+            </a href="#">
+            <div class="profile__content">
+              <p>Hi, there</p>
+              <h3><a href="#">Morgan Oakley (@morgan)</a></h3>
+            </div>
+          </div>
+          <div>
+            <div class="flex gap-sm">
+              <button class="btn btn--primary">New</button>
+              <button class="btn btn--primary">Upload</button>
+              <button class="btn btn--primary">Share</button>
+            </div>
+          </div>
+        </section>
+      </header>
+      <aside class="leftbar">
+        <section class="sidebar">
+          <div class="sidebar__header">
+            <div class="sidebar__logo">
+              <a href="#"><img src="/img/icons/cog-box.svg" alt="Website logo"></a>
+            </div>
+            <h2 class="sidebar__title"><a href="#">Dashboard</a></h3>
+          </div>
+
+          <nav>
+            <ul class="nav">
+
+              <li class="nav__list">
+                <a href="#" class="nav__item">
+                  <div class="nav__icon"><img src="/img/icons/home-flood.svg" alt="home icon" width="25" height="25">
+                  </div>
+                  <div class="nav__text">Home</div>
+                </a>
+              </li>
+
+              <li class="nav__list">
+                <a href="#" class="nav__item">
+                  <div class="nav__icon"><img src="/img/icons/home-flood.svg" alt="home icon" width="25" height="25">
+                  </div>
+                  <div class="nav__text">Messages</div>
+                </a>
+              </li>
+
+              <li class="nav__list">
+                <a href="#" class="nav__item">
+                  <div class="nav__icon"><img src="/img/icons/home-flood.svg" alt="home icon" width="25" height="25">
+                  </div>
+                  <div class="nav__text">Profile</div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav>
+            <ul class="nav">
+
+              <li class="nav__list">
+                <a href="#" class="nav__item">
+                  <div class="nav__icon"><img src="/img/icons/home-flood.svg" alt="home icon" width="25" height="25">
+                  </div>
+                  <div class="nav__text">Home</div>
+                </a>
+              </li>
+
+              <li class="nav__list">
+                <a href="#" class="nav__item">
+                  <div class="nav__icon"><img src="/img/icons/home-flood.svg" alt="home icon" width="25" height="25">
+                  </div>
+                  <div class="nav__text">Messages</div>
+                </a>
+              </li>
+
+              <li class="nav__list">
+                <a href="#" class="nav__item">
+                  <div class="nav__icon"><img src="/img/icons/home-flood.svg" alt="home icon" width="25" height="25">
+                  </div>
+                  <div class="nav__text">Profile</div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </aside>
+      <main class="main">
+        <div class="board">
+          <div class="board__title">Your Projects</div>
+          <div class="board__content">
+            <div class="card__container">
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="card__content">
+                  <header class="card__header">
+                    <div class="card__title"><a href="#">Project Title</a></div>
+                  </header>
+                  <div class="card__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores odio nam porro
+                      distinctio expedita minima ab eius, veritatis molestias facilis doloremque laudantium, debitis
+                      sint consequatur totam praesentium quasi. Aliquid.</p>
+                  </div>
+                  <div class="card__footer flex-end">
+                    <button class="icon"><img src="img/icons/eye.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                    <button class="icon"><img src="img/icons/share.svg" alt="look the live code" width="25"
+                        height="25"></button>
+                  </div>
+                </div>
+              </article>
+
+
+            </div>
+          </div>
+        </div>
+      </main>
+      <aside class="rightbar">
+        <div class="board  announcements">
+          <div class="board__title">Announcements</div>
+          <div class="board__content">
+            <div class="card">
+              <div class="card__content">
+                <div class="card__body">
+
+                  <!-- List -->
+                  <div class="list-group">
+                    <div class="list-group__item list-group__item--action">
+                      <header class="text-bold">Title</header>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt unde repudiandae,</p>
+                    </div>
+
+                    <div class="list-group__item list-group__item--action">
+                      <header class="text-bold">Title</header>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt unde repudiandae,</p>
+                    </div>
+
+                    <div class="list-group__item  list-group__item--action">
+                      <header class="text-bold">Title</header>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt unde repudiandae,</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="board">
+          <div class="board__title">Trending</div>
+          <div class="board__content">
+            <div class="card">
+              <div class="card__content">
+                <div class="profile">
+                  <a class="profile__image" href="#">
+                    <img src="/img/profile/profile-picture-1.jpg" alt="your profile picture">
+                  </a>
+                  <div class="profile__content">
+                    <a href="#">
+                      <p class="profile__username">@Morgan</p>
+                    </a>
+                    <p class="profile__bio">kadang dibalik</p>
+                  </div>
+                </div>
+
+                <div class="profile">
+                  <a class="profile__image" href="#">
+                    <img src="/img/profile/profile-picture-2.jpg" alt="your profile picture">
+                  </a>
+                  <div class="profile__content">
+                    <a href="#">
+                      <p class="profile__username">@pikadeudeuh</p>
+                    </a>
+                    <p class="profile__bio">kadang dibalik</p>
+                  </div>
+                </div>
+
+                <div class="profile">
+                  <a class="profile__image" href="#">
+                    <img src="/img/profile/profile-picture-3.jpg" alt="your profile picture">
+                  </a>
+                  <div class="profile__content">
+                    <a href="#">
+                      <p class="profile__username">@liliana</p>
+                    </a>
+                    <p class="profile__bio">kadang dibalik</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </body>
+
+</html>
